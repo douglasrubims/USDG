@@ -548,6 +548,8 @@ void ProcessBlockAvailability(NodeId nodeid) {
     }
 }
 
+
+
 /** Update tracking information about which blocks a peer is assumed to have. */
 void UpdateBlockAvailability(NodeId nodeid, const uint256 &hash) {
     CNodeState *state = State(nodeid);
